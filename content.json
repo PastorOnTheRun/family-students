@@ -1,54 +1,71 @@
 {
   "_edit": "This is the only file to update for a Wednesday. Use plain dates like Wednesday, October 7 · 6:30 PM (Eastern). Leave a string empty to hide it. Do not add a maps or signup URL unless it is a real http(s) link. Prefix unfinished copy with PLACEHOLDER. Set sample to false when this week is real. Chapel = high school, Annex = junior high. Never call Oakland home. Never add student names, contacts, or prayer requests.",
-  "sample": true,
+  "sample": false,
   "wordmark": "Family Students",
   "tagline": "Belong. Believe. Beyond.",
   "leadersNote": "Leaders: use Stage Ready",
   "leadersUrl": "https://pastorontherun.github.io/stage-ready/",
   "gathering": {
-    "title": "PLACEHOLDER — Wednesday night",
-    "when": "Wednesday, October 7 · 6:30 PM",
+    "title": "Wednesday night",
+    "when": "Wednesday, September 30 · 6:00 PM",
     "campusId": "windermere",
-    "room": "PLACEHOLDER",
+    "room": "",
     "audiences": ["Chapel", "Annex"],
-    "series": "PLACEHOLDER series",
-    "bigIdea": "PLACEHOLDER — one sentence big idea.",
+    "series": "",
+    "bigIdea": "",
     "bullets": [
-      "PLACEHOLDER — what to expect",
-      "PLACEHOLDER — what to bring"
+      "Hang out from 6:00 to 8:00. Service starts at 6:30. Pickup through 8:15.",
+      "Dinner starts at 5. Pizza is a dollar.",
+      "Bring a friend. This is the best night to find your small group."
     ],
     "directionsUrl": ""
   },
   "events": [
     {
+      "name": "Church prayer night",
+      "when": "Wednesday, October 7 · 5:45 PM",
+      "campusId": "windermere",
+      "summary": "Free. The bus leaves Family Church Windermere at 5:45 PM for the prayer night at Lakeside, and you are back around 8:30 PM. Sign up on BAND. Ask a leader for the invite.",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    },
+    {
       "name": "Be Class",
-      "when": "",
+      "when": "October 18, 2026",
       "campusId": "",
-      "summary": "",
+      "summary": "Membership and baptism next step. Time and room are not posted yet.",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    },
+    {
+      "name": "Pumpkin Party",
+      "when": "Wednesday, October 28 · 6:00 PM",
+      "campusId": "windermere",
+      "summary": "Student costume night, in place of regular Wednesday. Church-friendly costumes, or come as you are. Pickup through 8:15.",
       "ctaLabel": "",
       "ctaUrl": ""
     },
     {
       "name": "24-hour prayer",
-      "when": "",
-      "campusId": "",
-      "summary": "One-hour signup blocks. No live band — stations, lighting, and playlists.",
+      "when": "Friday, October 30, noon, through Saturday, October 31, noon",
+      "campusId": "windermere",
+      "summary": "One-hour signup blocks. No live band. Stations, softer lighting, and playlists. High school and up only from 10 PM to 6 AM.",
       "ctaLabel": "",
       "ctaUrl": ""
     },
     {
       "name": "Friendsgiving",
       "when": "Wednesday, November 18, 2026",
-      "campusId": "",
-      "summary": "",
+      "campusId": "windermere",
+      "summary": "In place of regular Wednesday. Guests are welcome and do not need to bring food. A side or dessert is welcome if you want to bring one.",
       "ctaLabel": "",
       "ctaUrl": ""
     },
     {
       "name": "Student Christmas Party",
-      "when": "Wednesday, December 16, 2026",
-      "campusId": "",
-      "summary": "Christmas / ugly-sweater attire.",
+      "when": "Wednesday, December 16 · 6:00 PM",
+      "campusId": "windermere",
+      "summary": "Christmas party in place of regular Wednesday. Bring a friend. Pickup through 8:15.",
       "ctaLabel": "",
       "ctaUrl": ""
     }
@@ -59,16 +76,16 @@
       "name": "Windermere",
       "role": "Main campus",
       "address": "",
-      "arrival": "PLACEHOLDER — where students go when they arrive.",
+      "arrival": "Wednesday doors are at 6:00. Dinner starts at 5 if you want pizza. A leader will help you find a group.",
       "mapsUrl": ""
     },
     {
       "id": "oakland",
-      "name": "Oakland / Lakeside",
+      "name": "Oakland",
       "role": "Sister campus",
       "address": "200 S Tubb St, Oakland, FL",
-      "arrival": "PLACEHOLDER — where students go when they arrive.",
-      "mapsUrl": ""
+      "arrival": "A sister campus. Ask a leader where students meet when you visit.",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=200+S+Tubb+St,+Oakland,+FL"
     }
   ],
   "firstTime": {
@@ -76,19 +93,19 @@
     "blocks": [
       {
         "title": "A leader will help you find a group",
-        "body": "You do not have to figure the building out alone. When you arrive, a leader will help you find a group."
+        "body": "You do not have to figure the building out alone. Wednesday is the best night to get to know people and find a small group."
       },
       {
-        "title": "Where to park",
-        "body": "PLACEHOLDER — parking instructions."
+        "title": "Dinner",
+        "body": "Pizza starts at 5 and costs a dollar. You can also come at 6:00."
       },
       {
-        "title": "Where to walk in",
-        "body": "PLACEHOLDER — which door to use."
+        "title": "When you arrive",
+        "body": "Doors are at 6:00. Hang out until 8:00. Pickup is through 8:15."
       },
       {
         "title": "Chapel and Annex",
-        "body": "High school meets in Chapel. Junior high meets in Annex. Tonight has the time, the campus, and the room for this week."
+        "body": "High school meets in Chapel. Junior high meets in Annex."
       }
     ]
   }
