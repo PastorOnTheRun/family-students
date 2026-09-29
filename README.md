@@ -2,11 +2,11 @@
 
 Public page for students and parents. Where to be this Wednesday, what’s next, and how to find the campus.
 
-Live site, after GitHub Pages is on: https://pastorontherun.github.io/family-students/
+Live site: https://pastorontherun.github.io/family-students/
 
 ## Update a Wednesday
 
-Edit `content.json` on GitHub and commit. The layout does not change.
+Edit `content.json` on GitHub and commit. The layout does not change. GitHub Actions publishes the site.
 
 - Dates look like `Wednesday, October 7 · 6:30 PM` (Eastern).
 - Leave a field as `""` to hide it.
@@ -20,4 +20,4 @@ Leaders stay on [Stage Ready](https://pastorontherun.github.io/stage-ready/).
 
 ## Pages
 
-If the live link 404s, open the repo **Settings → Pages**, set **Deploy from branch** to `main` / `/ (root)`, and save.
+One time: **Settings → Pages → Build and deployment → Source → GitHub Actions**. The workflow is `.github/workflows/static.yml`. After that, every commit to `main` publishes the site.
