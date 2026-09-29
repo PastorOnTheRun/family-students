@@ -1,0 +1,95 @@
+{
+  "_edit": "This is the only file to update for a Wednesday. Use plain dates like Wednesday, October 7 · 6:30 PM (Eastern). Leave a string empty to hide it. Do not add a maps or signup URL unless it is a real http(s) link. Prefix unfinished copy with PLACEHOLDER. Set sample to false when this week is real. Chapel = high school, Annex = junior high. Never call Oakland home. Never add student names, contacts, or prayer requests.",
+  "sample": true,
+  "wordmark": "Family Students",
+  "tagline": "Belong. Believe. Beyond.",
+  "leadersNote": "Leaders: use Stage Ready",
+  "leadersUrl": "https://pastorontherun.github.io/stage-ready/",
+  "gathering": {
+    "title": "PLACEHOLDER — Wednesday night",
+    "when": "Wednesday, October 7 · 6:30 PM",
+    "campusId": "windermere",
+    "room": "PLACEHOLDER",
+    "audiences": ["Chapel", "Annex"],
+    "series": "PLACEHOLDER series",
+    "bigIdea": "PLACEHOLDER — one sentence big idea.",
+    "bullets": [
+      "PLACEHOLDER — what to expect",
+      "PLACEHOLDER — what to bring"
+    ],
+    "directionsUrl": ""
+  },
+  "events": [
+    {
+      "name": "Be Class",
+      "when": "",
+      "campusId": "",
+      "summary": "",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    },
+    {
+      "name": "24-hour prayer",
+      "when": "",
+      "campusId": "",
+      "summary": "One-hour signup blocks. No live band — stations, lighting, and playlists.",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    },
+    {
+      "name": "Friendsgiving",
+      "when": "Wednesday, November 18, 2026",
+      "campusId": "",
+      "summary": "",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    },
+    {
+      "name": "Student Christmas Party",
+      "when": "Wednesday, December 16, 2026",
+      "campusId": "",
+      "summary": "Christmas / ugly-sweater attire.",
+      "ctaLabel": "",
+      "ctaUrl": ""
+    }
+  ],
+  "campuses": [
+    {
+      "id": "windermere",
+      "name": "Windermere",
+      "role": "Main campus",
+      "address": "",
+      "arrival": "PLACEHOLDER — where students go when they arrive.",
+      "mapsUrl": ""
+    },
+    {
+      "id": "oakland",
+      "name": "Oakland / Lakeside",
+      "role": "Sister campus",
+      "address": "200 S Tubb St, Oakland, FL",
+      "arrival": "PLACEHOLDER — where students go when they arrive.",
+      "mapsUrl": ""
+    }
+  ],
+  "firstTime": {
+    "intro": "First Wednesday, or a parent checking the plan. No account. No check-in. This app does not ask for a student’s name.",
+    "blocks": [
+      {
+        "title": "A leader will help you find a group",
+        "body": "You do not have to figure the building out alone. When you arrive, a leader will help you find a group."
+      },
+      {
+        "title": "Where to park",
+        "body": "PLACEHOLDER — parking instructions."
+      },
+      {
+        "title": "Where to walk in",
+        "body": "PLACEHOLDER — which door to use."
+      },
+      {
+        "title": "Chapel and Annex",
+        "body": "High school meets in Chapel. Junior high meets in Annex. Tonight has the time, the campus, and the room for this week."
+      }
+    ]
+  }
+}
