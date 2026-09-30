@@ -12,7 +12,8 @@ Leave a string as `""` when Notion does not have it. The page shows an empty sta
 | --- | --- |
 | `title` | Be Class |
 | `subtitle` | Belong · Believe · Beyond |
-| `date` | Confirmed date line |
+| `date` | Next class. Be Class is the third Sunday of every month. |
+| `cadence` | The monthly pattern. Leave empty only if Jake changes the pattern. |
 | `time` | Start time, or empty |
 | `room` | Room, or empty |
 | `building` | Building, or empty |

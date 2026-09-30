@@ -139,6 +139,7 @@ function renderClass() {
   header.append(el("h1", "page-title", content.title || "Be Class"));
   header.append(el("p", "subtitle", content.subtitle));
   header.append(el("p", "date", content.date));
+  if (text(content.cadence)) header.append(el("p", "subtitle", content.cadence));
   screen.append(header);
   screen.append(logistics(content));
   if (text(content.campusNote)) screen.append(el("p", null, content.campusNote));

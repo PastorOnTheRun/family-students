@@ -1,4 +1,4 @@
-const CACHE = "be-class-v1";
+const CACHE = "be-class-v2";
 const SHELL = [
   "./index.html",
   "./styles.css",

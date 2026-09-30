@@ -3,6 +3,7 @@
   "title": "Be Class",
   "subtitle": "Belong · Believe · Beyond",
   "date": "Sunday, October 18, 2026",
+  "cadence": "The third Sunday of every month.",
   "time": "",
   "room": "",
   "building": "",
@@ -26,7 +27,7 @@
   ],
   "formMissing": "Form link not set.",
   "parentTitle": "For parents",
-  "parent": "Be Class is a next-step class for students — baptism and belonging with Family Church. It is not a lock-in. Parents are welcome when they can come.",
+  "parent": "Be Class is a next-step class for students — baptism and belonging with Family Church. It meets the third Sunday of every month. It is not a lock-in. Parents are welcome when they can come.",
   "footer": "Questions: ask your small group leader or the student desk.",
   "installTitle": "Add to Home Screen",
   "installBody": "On iPhone, tap Share, then Add to Home Screen.",
@@ -110,6 +111,6 @@
   ],
   "afterEmpty": "This will be posted here.",
   "nextDateLabel": "Next Be Class date",
-  "nextDate": "",
+  "nextDate": "Sunday, November 15, 2026",
   "nextDateEmpty": "The next date will be posted here."
 }
