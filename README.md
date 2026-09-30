@@ -28,4 +28,4 @@ Edit `be-class/content.json`. The field list is `be-class/CONTENT.md`. Leave unk
 
 ## Pages
 
-One time: **Settings → Pages → Build and deployment → Source → GitHub Actions**. The workflow is `.github/workflows/static.yml`. After that, every commit to `main` publishes the site.
+One time: **Settings → Pages → Build and deployment → Deploy from a branch → `main` → `/ (root)`**. The Actions workflow cannot publish until that is on. After that, every commit to `main` publishes the site.
