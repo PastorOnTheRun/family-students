@@ -18,6 +18,14 @@ Edit `content.json` on GitHub and commit. The layout does not change. GitHub Act
 
 Leaders stay on [Stage Ready](https://pastorontherun.github.io/stage-ready/).
 
+## Be Class
+
+Student and parent page, separate from this Wednesday guide and from Stage Ready.
+
+Live page: https://pastorontherun.github.io/family-students/be-class/
+
+Edit `be-class/content.json`. The field list is `be-class/CONTENT.md`. Leave unknown time, room, and form URL empty. Do not add student names.
+
 ## Pages
 
 One time: **Settings → Pages → Build and deployment → Source → GitHub Actions**. The workflow is `.github/workflows/static.yml`. After that, every commit to `main` publishes the site.
