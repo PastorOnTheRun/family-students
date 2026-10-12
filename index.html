@@ -1,32 +1,126 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Family Students</title>
-    <meta
-      name="description"
-      content="Where Family Students meet this week. Time, campus, and what to bring."
-    />
-    <meta name="theme-color" content="#000000" />
-    <meta name="apple-mobile-web-app-title" content="Family Students" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="favicon.svg" />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Outfit:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <div class="app-frame">
-      <main class="app-main" id="main"></main>
-      <nav class="tab-bar" id="tabs" aria-label="Family Students"></nav>
-    </div>
-    <script src="app.js"></script>
-  </body>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Family Church Students — Announcements</title>
+<meta name="description" content="Family Church Students (Windermere) announcements: this week, upcoming events, and reminders." />
+<meta name="theme-color" content="#000000" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+:root{--o:#FF7010;--bg:#000;--card:#141414;--line:#2a2a2a;--tx:#fff;--mut:#bdbdbd}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 19px/1.55 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:680px;margin:0 auto;padding:28px 18px calc(48px + env(safe-area-inset-bottom))}
+h1,h2,h3{font-family:Archivo,"Arial Black",system-ui,sans-serif;font-stretch:125%;font-weight:800;letter-spacing:.01em;line-height:1.1;margin:0}
+header{padding:8px 0 22px;border-bottom:3px solid var(--o);margin-bottom:8px}
+.kicker{color:var(--o);font-weight:600;text-transform:uppercase;letter-spacing:.12em;font-size:14px;margin:0 0 10px}
+h1{font-size:clamp(30px,8.5vw,46px)}
+h1 span{color:var(--o);display:block;font-size:.6em;margin-top:8px}
+.vision{margin:16px 0 0;font-size:20px;font-weight:600}
+.vision b{color:var(--o)}
+.asof{color:var(--mut);font-size:15px;margin:6px 0 0}
+h2{font-size:24px;color:var(--o);margin:34px 0 14px;text-transform:uppercase}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--o);border-radius:14px;padding:18px 18px 16px;margin:0 0 14px}
+h3{font-size:21px;margin-bottom:6px}
+.when{font-weight:600;color:var(--o);margin:0 0 8px}
+.card p{margin:0 0 8px}
+ul{margin:4px 0 8px;padding-left:22px}li{margin:3px 0}
+.note{font-style:italic;color:var(--mut);font-size:15px;margin-top:10px!important}
+.btn{display:inline-block;background:var(--o);color:#000;font-weight:700;text-decoration:none;padding:13px 20px;border-radius:999px;margin-top:8px;font-size:18px}
+a{color:var(--o)}
+footer{margin-top:36px;text-align:center;color:var(--mut);font-size:15px}
+footer strong{display:block;color:var(--tx);font-family:Archivo,sans-serif;font-stretch:125%;font-size:20px;margin-bottom:4px}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+<p class="kicker">Family Church Windermere</p>
+<h1>Family Church Students<span>Announcements</span></h1>
+<p class="vision"><b>Belong.</b> Believe. <b>Beyond.</b></p>
+<p class="asof">Updated Monday, October 12, 2026</p>
+</header>
+
+<section aria-labelledby="this-week">
+<h2 id="this-week">This Week</h2>
+<article class="card">
+<h3>Student Night</h3>
+<p class="when">Wednesday, Oct 14 · 6:00–8:00 PM</p>
+<ul>
+<li>Dinner from 5:00 PM — $1 pizza</li>
+<li>Hangout 6:00 · Service 6:30</li>
+<li>Family Church Windermere (middle school in the Annex)</li>
+<li>Our <strong>Prayer &amp; Worship</strong> series continues</li>
+</ul>
+<p>Invite one friend and join us on BAND: <strong>Family Students (WN)</strong>.</p>
+<a class="btn" href="https://band.us/n/aaafbdF364s34" rel="noopener">Join BAND</a>
+<p class="note">Midweek plan being confirmed this week.</p>
+</article>
+</section>
+
+<section aria-labelledby="upcoming">
+<h2 id="upcoming">Upcoming Events</h2>
+<article class="card">
+<h3>Daddy-Daughter Date Night</h3>
+<p class="when">Friday, Oct 16 · 5:30 PM</p>
+<p>Windermere Gym · church-wide event. Ask your dad!</p>
+<p class="note">Details to be confirmed.</p>
+</article>
+<article class="card">
+<h3>Be Class</h3>
+<p class="when">Sunday, Oct 18, 2026</p>
+<p>Your next step toward membership and baptism.</p>
+<a href="be-class/">Be Class info →</a>
+</article>
+<article class="card">
+<h3>Pumpkin Party / Student Costume Night</h3>
+<p class="when">Wednesday, Oct 28 · 6:00–8:00 PM</p>
+<p>Replaces our regular Wednesday night.</p>
+<ul>
+<li>Teams of 5 — bring one 10+ lb carving pumpkin</li>
+<li>Costume contest (free costume bin available)</li>
+<li>Wear closed-toe shoes</li>
+</ul>
+</article>
+<article class="card">
+<h3>24-Hour Prayer Event</h3>
+<p class="when">Friday, Oct 30 → Saturday, Oct 31</p>
+<p>Middle schoolers until 10 PM. Sign-ups coming soon.</p>
+<p class="note">Times pending (likely noon to noon).</p>
+</article>
+<article class="card">
+<h3>Student Friendsgiving</h3>
+<p class="when">Wednesday, Nov 18 · 6:00–8:00 PM</p>
+</article>
+<article class="card">
+<h3>Student Christmas Party</h3>
+<p class="when">Wednesday, Dec 16 · 6:00 PM</p>
+</article>
+</section>
+
+<section aria-labelledby="reminders">
+<h2 id="reminders">Reminders</h2>
+<article class="card">
+<h3>Wednesday Schedule</h3>
+<ul>
+<li>Hangout 6:00–6:30 PM</li>
+<li>Service 6:30 PM</li>
+<li>Done 8:00 PM (pickup through 8:15)</li>
+</ul>
+</article>
+<article class="card">
+<h3>Stay in the Loop</h3>
+<p>Join the BAND app for updates: <strong>Family Students (WN)</strong>.</p>
+<a class="btn" href="https://band.us/n/aaafbdF364s34" rel="noopener">Open BAND</a>
+</article>
+</section>
+
+<footer><strong>Belong. Believe. Beyond.</strong>Family Church Students · Windermere</footer>
+</main>
+</body>
 </html>
